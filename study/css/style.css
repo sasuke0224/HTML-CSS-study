@@ -41,7 +41,7 @@ body {
 }
 
 .about_container {
-    margin-left: 60px
+    margin-left: 90px
 }
 
 .about_container_title {
@@ -53,36 +53,119 @@ body {
     color: white;
     font-size: 30px;
     margin-top: 30px;
+    width: 50%;
 }
 
 .member {
     background-color: white;
-    padding-top: 100px;
+    padding-top: 50px;
+    
 }
 
 .member_container {
     margin-left: 60px;
     margin-right: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.member_container_title {
+.member_title {
     color: #00d084;
     font-size: 40px;
+    margin-left: 90px;
 }
 
 .member_container_photo {
     background-color: #0f1923;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    gap: 30px;
-    padding-top: 20px;
+    padding: 20px 20px 0px 20px;
+    margin: 5px 5px 20px 5px;
+
 }
 
 .member_container_text {
     color: white;
     font-size: 30px;
+    text-align: center;
 }
+
+.game_title {
+    padding: 50px 0 50px 0;
+}
+
+.game_title_title {
+    color: #00d084;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.game_title_container {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.game_title_container_photo {
+    background-color: antiquewhite;
+    padding: 20px 20px 0px 20px;
+    margin: 5px 0px 20px 0px;
+}
+
+.game_title_container_text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact {
+    background-color: #ffff;
+    padding: 80px 0 50px 0;
+}
+
+.contact_title {
+    color: #00d084;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.contact_container {
+   
+    margin: 30px 0 0 90px;
+}
+
+.contact_container_item {
+
+}
+
+label {
+    display: block;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 0 8px 0;
+}
+
+.footer_logo {
+    margin: 10px 0 0 50px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: right;
+}
+
+.footer_menu_item {
+    color: #ffffff;
+    margin: 5px;
+}
+
+
 /* リンク文字 */
 
 .header_menu_item a {}
@@ -100,3 +183,11 @@ a:hover {
 }
 
 .contents_item h1 {}
+
+
+
+@media screen and (width: px) {
+    body {
+        
+    }
+}
